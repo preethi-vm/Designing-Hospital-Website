@@ -1,0 +1,68 @@
+<html>
+ <head>
+    <title>Appointments</title>
+    <link href="appointment page style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <a href="homepage.html"><img src="back.png" class="back" height="60px"width="60px"></a>
+    <a href="homepage.html" class="home">HOME</a> 
+    <imgsrc="myit_icon_appointment.png" width="150px" style="float: center"> <br><br>
+    <h1>B<font size=6>OOK</font> A<font size=6>PPOINTMENT</font> </h1>
+    <br>
+    <div class="box"></div><div class="appointmentform">
+        <form method="get" action="appointmentsubmit.html">
+            <table>
+                <tr><td>Patient Name</td> <td>:
+                     <input type="text" placeholder="Patient Name"class="formname" required></td></tr><br><tr><td>Gender</td> <td>: 
+                        <input type="radio" name="gender" value="male" checked>Male &nbsp; &nbsp;<input type="radio" name="gender" value="female"> Female &nbsp; &nbsp;<input type="radio" name="gender" value="other"> Other</td></tr><br><br>
+                        <tr><td>Contact No.</td> <td>: <input type="text" placeholder="10 digit number"maxlength="10" class="formname" required></td></tr><br>
+                       <tr><td>E-Mail</td> <td>: <input type="email" placeholder="Email ID"class="formname" required></td></tr><br>
+                       <tr><td>Date of Birth</td> <td>: <input type="text" placeholder="DD/MM/YYYY"maxlength="10" class="formname" required></td></tr><br>
+                       <tr><td>Hospital Location</td> <td>:
+                        <select required class="formname">
+                            <option selected="selected" disabled="disabled">Select Hospital Location</option>
+                            <option>New Delhi</option>
+                            <option>Gurugram</option>
+                            <option>Ghaziabad</option>
+                            <option>Noida</option>
+                            <option>Faridabad</option>
+                        </select></td></tr>
+                        <br>
+                        <tr><td>Preferred Date for Appointment</td> <td>: <input type="text" placeholder="DD/MM/YYYY" maxlength="10" class="formname" required></td></tr><br>
+                        <tr><td>Preferred Time</td> <td>: <input type="text" placeholder="HH:MM"maxlength="5" class="formname" required></td></tr><br>
+                        <tr><td>Department</td> <td>:
+                            <select required class="formname">
+                                <option selected="selected" disabled="disabled">Select Department</option>
+                                <option>Cardiology (Heart Care)</option>
+                                <option>Critical Care</option>
+                                <option>Cosmetic Dermatology </option>
+                                <option>Dentistry & Maxillofacial Surgery</option>
+                                <option>Endocrinology (Diabetes)</option>
+                                <option>ENT</option>
+                                <option>Gastroentrology</option>
+                                <option>General & Laparoscopic Surgery</option>
+                                <option>General Physician</option>
+                                <option>Hematology</option>
+                                <option>Interventional Radiology</option>
+                                <option>IVF Clinic(Assisted Reproduction)</option>
+                                <option>Nephrology</option>
+                                <option>NeuroSciences</option>
+                                <option>Nuclear Medicine</option>
+                                <option>Obstetrics & Gynecology</option>
+                                <option>Oncology (Cancer Care)</option>
+                                <option>Opthalmology (Eye Care)</option>
+                                <option>Orthopaedics (Bone and Spine Injury)</option>
+                                <option>Pediatrics</option>
+                                <option>Physiotherapy</option>
+                                <option>Psychiatry and Psychotherapy</option>
+                                <option>Pulmonary Medicine</option>
+                                <option>Radiology & Imaging</option>
+                                <option>Transplant</option>
+                                <option>Urology</option>
+                            </select></td></tr><br>
+                        </table><br>
+                        <input type="submit" class="submitbtn"><input type="reset" class="resetbtn">
+                    </form>
+                </div>
+            </body>
+            </html>

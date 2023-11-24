@@ -1,0 +1,108 @@
+h1 {
+    color: darkblue;
+    text-align: center; 
+    background-color:white;
+    font-size: 40px;
+} 
+body { 
+    background: url("Cool Wallpapers Blue Wallpapers Background.jpg") no-repeat fixed; 
+    background-size: cover;
+}
+.home {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.home:hover { 
+    border: solid white 3px;
+} 
+p {
+    margin: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: "Maiandra GD";
+} 
+p.additional {
+    margin: 30px;
+    margin-right: 100px;
+    line-height: 25px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "Maiandra GD";
+    text-align: justify;
+} 
+p.additional1 {
+    margin: 30px;
+    margin-right: 350px;
+    line-height: 25px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "Maiandra GD";
+    text-align: justify;
+}
+table, th, td{
+    margin: auto; 
+    border: 1px solid #FFFFFF; 
+    border-collapse: collapse;
+    font-family: arial;
+}
+th{
+    font-size: 20px;
+    color: white;
+}
+td{
+    color: white;
+}
+.depttlist{
+    line-height: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: "Maiandra GD";
+    text-align: justify;
+    margin-left: 50px;
+}
+.emergency{
+    margin-right: 70px;
+}
+.bullets {
+    margin: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: "Maiandra GD";
+}
+.back {
+    margin-bottom: -20px;
+}
+.rules {
+    margin-left: 330px;
+    margin-top: -15px;
+}
+.download {
+    margin-bottom: -100px;
+    margin-left: 50px;
+}
+.firstrow {
+    margin-left: 70px;
+}
+.secondrow {
+     margin-left: 70px;
+    }
+    .thirdrow {
+        margin-left: 70px;
+    }
+    .fourthrow {
+        margin-left: 70px;
+    }
+    .fifththrow {
+        margin-left: 70px;
+    }
+    h2 {
+        color: antiquewhite;
+        margin-left: 20px;
+        text-decoration: underline;
+    }
+    .leaderimg{
+        margin-left: 120px;
+    }

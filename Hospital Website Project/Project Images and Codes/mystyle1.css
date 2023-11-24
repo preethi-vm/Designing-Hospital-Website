@@ -1,0 +1,208 @@
+html, body{
+    margin: 0px;
+}
+.intro{
+    height: 100%;
+    width: 100%; 
+    background: url(Pictures.jpg) no-repeat 50% 50% fixed; 
+    background-size: cover;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.innerbg{
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+.innerbg h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 15px 15px 800px darkblue ;
+    font-size: 400%;
+    margin-left: 400px;
+    margin-right: -350px;
+    margin-top: 180px;
+}
+.start{ 
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif ;
+    color: #02386E;
+    font-size: 135%; 
+    padding: 10px 20px; 
+    border: solid #02386E 3px;
+    text-decoration: none;
+    margin-left: 400px;
+    margin-right: -350px;
+    margin-top: 180px;
+}
+.start:hover{
+    color: red; 
+    border: solid red 3px; 
+    box-shadow: 2px 2px 300px #E00A0D ;
+}
+.para{
+    text-align: center;
+    font-size: 160%;
+    line-height: 210%;
+    font-family: sans-serif;
+    color: white; 
+    padding: 20px; 
+    background: url("front page2.jpg") no-repeat; 
+    background-size:1300px ;
+    margin-left: 30px; 
+    border-radius: 4px;
+}
+.para2{
+    text-align: center;
+    font-size: 160%;
+    line-height: 210%;
+    font-family: sans-serif;
+    color: white; 
+    padding: 20px; 
+    background: url("front page4.jpg") no-repeat; 
+    background-size:1400px ; 
+    border-radius: 4px;
+}
+.para3{
+    text-align: center;
+    font-size: 160%;
+    line-height: 210%;
+    font-family: sans-serif;
+    color: white; 
+    padding: 20px; 
+    background: url("front page5.jpg") no-repeat; 
+    background-size:100% ; 
+    border-radius: 4px;
+}
+.middle{
+    font-family: "Montserrat-Black";
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    margin-top: 70px;
+}
+.middlepara{
+    color: black;
+    font-size: 17px; 
+    padding: 0px 90px 0px 90px;
+    line-height: 20px;
+}
+.middle2{
+    font-family: "Montserrat-Black";
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    margin-top: 70px;
+    text-align: left;
+}
+.middlepara2{
+    color: black;
+    font-size: 17px; 
+    padding: 0px 300px 0px 0px;
+    line-height: 20px;
+    text-align: justify;
+    margin-top: -10px;
+}
+.copyright{
+    text-align: center; 
+    padding: 0px 80px 0px 80px; 
+    background: #05548E;
+    color: white;
+    font-family: "Arial";
+    line-height: 20px;
+}
+.top{ 
+    padding: 0px;
+    float: left; 
+    position: fixed;
+    margin-left: 45px;
+}
+#menu ul{
+    list-style:none; 
+    box-shadow: 10px 25px 75px 30px white;
+    opacity: 0.98;
+}
+#menu ul li{ 
+    background-color: #005BFC; 
+    border:1px solid #005BFC;
+    width: 180px;
+    height:65px;
+    line-height:65px;
+    text-align:center;
+    float:left; 
+    position: relative; 
+    border-radius: 8px;
+    margin: 1.5px;
+}
+#menu{
+    margin: auto;
+}
+#menu ul li:nth-child(2){
+    width:180px;
+}
+#menu ul li:nth-child(3){
+    width:180px;
+}
+#menu ul li:nth-child(6){
+    width:180px;
+}
+#menu ul li:nth-child(7){
+    width:180px;
+}
+#menu ul li:nth-child(8){
+    width:135px;
+}
+#menu ul.drop2 li{
+    width:200px; 
+    background-color:#27AE60; 
+    border: solid #27AE60;
+    margin: 1px;
+    margin-left: -45px;
+}
+#menu ul.drop1 li{
+    width:180px; 
+    background-color:#27AE60; 
+    border: solid #27AE60;
+    margin: 1px;
+    margin-left: -45px;
+}
+#menu ul li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    font-family:"Maiandra GD";
+    font-size: 125%;
+}
+#menu ul li a:hover{ 
+    background-color:#229954; 
+    border:1px solid #229954; 
+    border-radius: 7px;
+    font-size: 120%;
+    font-family:"Maiandra GD"; 
+    box-shadow: 0px 0px 20px 0px white;
+}
+#menu ul ul{ 
+    position:absolute;
+    display: none;
+}
+#menu ul li:hover > ul{
+    display: block;
+}
+#menu ul li:hover > ul{
+    animation: load 1s forwards;
+    animation-duration: 600ms;
+    animation-name: menu;
+}
+@keyframes menu{
+    0%{
+        opacity: 0;
+        transform: rotateY(-90deg) translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg) translateY(0px);
+    }
